@@ -1,3 +1,5 @@
+/* Banner */
+
 .banner {
     background-color: blue;
 }
@@ -7,12 +9,50 @@
     color: red;
 }
 
+/* Score */
 .scorecard {
     background-color: blue;
 }
 
 .scoretitle {
     text-align: center;
-    text-decoration: underline;
     color: white;
 }
+
+/* Tables */
+
+.scoreboardheader {
+    text-align: center;
+    font-family: arial, sans-serif;
+}
+
+.scoreboard {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 100%;
+
+}
+
+.scoreboard td, .scoreboard th {
+    border: 3px solid #ddd;
+    padding: 8px;
+}
+
+.scoreboard tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.scoreboard tr:hover {
+    background-color: #ddd;
+}
+
+.scoreboard th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+  }
+

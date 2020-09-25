@@ -1,7 +1,8 @@
 import React from 'react';
 import Diceroll from './Diceroll';
 import Banner from './Banner';
-import Score from './Score'
+import Score from './Score';
+import Tables from './Tables';
 import './App.css'; 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
   <Banner />
   <Diceroll />
   <Score />
+  <Tables />
   </div>)
     
 }
