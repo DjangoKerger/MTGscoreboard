@@ -1,9 +1,10 @@
 import React from 'react';
-import Diceroll from './Diceroll'
+import Diceroll from './Diceroll';
+import Banner from './Banner';
 
 function App() {
   return (<div>
-  <h1>Hello World</h1>
+  <Banner />
   <Diceroll />
   </div>)
     
