@@ -7,15 +7,17 @@ function Diceroll(){
 
     function handleClick(){
         const p1Roll = Math.floor(Math.random()*20);
-        setP1(p1Roll);
         if (p1Roll === 0) {
-            p1Roll = 1; 
-        };
+            setP1(1); 
+        }else {
+        setP1(p1Roll)};
+        
         const p2Roll = Math.floor(Math.random()*20);
-        setP2(p2Roll);
         if (p2Roll === 0) {
-            p2Roll = 1; 
-        };
+            setP2(1); 
+        }else{
+        setP2(p2Roll)};
+        
     }
 
     return (

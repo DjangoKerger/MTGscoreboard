@@ -1,5 +1,5 @@
 import React from 'react';
-import Diceroll from './components/Diceroll'
+import Diceroll from './Diceroll'
 
 function App() {
   return (<div>
