@@ -18,7 +18,7 @@ function Tables(){
     }]
 
     return (<div>
-        <h1 className="scoreboardheader">Scoreboard</h1>
+        <h1 className="scoreboardheader">Overall Scores</h1>
         <table className="scoreboard">
             <tbody>
             <tr>

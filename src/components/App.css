@@ -56,3 +56,13 @@
     color: white;
   }
 
+
+/* //scorecard */
+
+.scoreheader {
+    text-align: center;
+}
+.score {
+    font-size: 2rem;
+}
+

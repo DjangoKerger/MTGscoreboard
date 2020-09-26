@@ -3,6 +3,7 @@ import Diceroll from './Diceroll';
 import Banner from './Banner';
 import Score from './Score';
 import Tables from './Tables';
+import Scoretracker from './Scoretracker';
 import './App.css'; 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
   <Diceroll />
   <Score />
   <Tables />
+  <Scoretracker />
   </div>)
     
 }
