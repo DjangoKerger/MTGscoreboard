@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Profiles(){
+function Profiles(props){
     
         const profiles = [{
             name: "Django",
